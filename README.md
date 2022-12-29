@@ -1,3 +1,101 @@
+# TodoList React-Js
+
+> Lista de Taréfas simples e editavel.
+
+#
+
+<div align="center">
+<h3>Projeto</h3>
+<img src="public/image/ltodolist.gif" />
+</div>
+
+### Skills
+* JavaScript
+  * Classes
+  * Funções
+  * Array
+  * Map
+  * localStorage
+
+* React-js
+  * PropTypes
+  * react-dom
+  * react-icons
+  * react-hooks
+
+* CSS
+  * Flex-Box
+
+
+### Bibiotecas
+
+* Dependências
+````
+"dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-eslint": "^10.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+ "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+````
+
+* Eslint
+````
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+  ],
+  rules: {
+    'react/jsx-filename-extension': 'off',
+    'react/state-in-constructor': 'off',
+    'react/forbid-prop-types': 'off',
+  },
+};
+````
+
+* EditorConfig
+````
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+````
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

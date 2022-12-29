@@ -79,7 +79,7 @@ export default class Main extends Component {
     const { novaTarefa, tarefas } = this.state;
     return (
       <div className="main">
-        <h1>lista de tarefas</h1>
+        <h1>Lista de Tarefas</h1>
 
         <Form
           novaTarefa={novaTarefa}
